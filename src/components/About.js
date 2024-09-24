@@ -3,18 +3,28 @@ import './About.css';
 
 function About() {
   return (
-    <section className="about">
-      <h2>Who We Are</h2>
-      <div className="about-content">
-        <img src="web_developer.jpeg" alt="Team Working" />
-        <p>
-          At Frithcode, we are a team of passionate innovators dedicated to
-          transforming the educational landscape. Our expertise lies in
-          developing cutting-edge school management systems that simplify and
-          enhance the administrative processes of educational institutions.
-        </p>
+    <div className="about-section">
+      <div className="about-image">
+        <img src="About.jpg" alt="Students" />
       </div>
-    </section>
+      <div className="about-content">
+        <h2>About ABC</h2>
+        
+        <p><strong>Our school's mission is</strong></p>
+        <div className="about-para">
+        
+          To learn leadership, the common core, and relationships for life.
+          Our mission is to provide a safe, disciplined learning environment
+          that empowers all students to develop their full potential.
+          To learn leadership, the common core, and relationships for life.
+          Our mission is to provide a safe, disciplined learning environment
+          that empowers all students to develop their full potential.
+        <br/>
+        <button>See more</button>
+        </div>
+    </div>
+    </div>
+
   );
 }
 

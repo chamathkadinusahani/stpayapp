@@ -1,13 +1,8 @@
 import React from 'react';
-import './App.css';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import Hero from './components/HomePage';
 import About from './components/About';
-import Vision from './components/Vision';
-import Journey from './components/Journey';
-import Team from './components/Team';
-import ChooseUs from './components/ChooseUs';
-import Box from './components/Box';
+import Events from './components/Events';
 import Footer from './components/Footer';
 
 function App() {
@@ -16,11 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Vision />
-      <Journey />
-      <Team />
-      <ChooseUs />
-      <Box/>
+      <Events />
       <Footer />
     </div>
   );
